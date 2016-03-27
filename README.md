@@ -1,3 +1,1 @@
-Checkboxes
-
-Plunker: https://plnkr.co/lwyDBXL2PWpIFffkpcki
+CSS animations

@@ -2,16 +2,31 @@
 <html>
 
   <head>
-    <link rel="stylesheet" href="style.css">
+    <script data-require="bootstrap@*" data-semver="3.3.6" src="bootstrap-js"></script>
+    <link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
 
   <body>
-    <div class="checkbox-switch">
-      <input type="checkbox" id="check-switch" class="checkbox-switch__input">
-      <label for="check-switch" class="checkbox-switch__label">
-        <div class="checkbox-switch__label--on">On</div>
-        <div class="checkbox-switch__label--off">Off</div>
-      </label>
+    <div class="container">
+      <button class="btn button--normal">
+        Click me
+      </button> 
+      <hr>
+      <div class=well>
+        <span class="glyphicon glyphicon-remove"></span>
+      </div>
+      <hr>
+      <div class="btn--normal-2">
+       <span class="btn__content btn__content--top">
+         Click me
+       </span>
+       <span class="btn__content btn__content--bottom">
+         I'm famous 
+       </span>
+      </div> 
+      <hr>
     </div>
   </body>
 
